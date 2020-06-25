@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v14\\values-large-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 107,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\3c4b63c6f4b70574425f4ef268d189fd101856e7\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 108,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 119,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\3c4b63c6f4b70574425f4ef268d189fd101856e7\\output\\res\\values-large-v14\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 399,
+                        "endColumn": 120,
+                        "endOffset": 515
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\3c4b63c6f4b70574425f4ef268d189fd101856e7\\output\\res\\values-w360dp\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 54,
+                        "endOffset": 331
+                    }
+                }
+            }
+        ]
+    }
+]

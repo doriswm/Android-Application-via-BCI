@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Algo_SDK_Sample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ap">AP</string>
+</resources>

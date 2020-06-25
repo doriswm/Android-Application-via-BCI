@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="Signal Quality:"
+        android:id="@+id/sqTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+    <TextView android:text="--"
+        android:id="@+id/sqText"
+        android:layout_toRightOf="@+id/sqTitle"
+        android:layout_marginLeft="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="SDK State:"
+        android:id="@+id/stateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sqTitle"
+        />
+    <TextView android:text="--"
+        android:id="@+id/stateText"
+        android:layout_toRightOf="@+id/stateTitle"
+        android:layout_below="@+id/sqTitle"
+        android:layout_marginLeft="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headset"
+        android:id="@+id/headsetButton"
+        android:layout_below="@+id/stateTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12dp"
+        android:maxHeight="20dp"
+        android:minHeight="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canned Data"
+        android:id="@+id/cannedDatabutton"
+        android:layout_alignTop="@+id/headsetButton"
+        android:layout_toRightOf="@+id/headsetButton"
+        android:layout_toEndOf="@+id/sqText"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        android:maxHeight="20dp"
+        android:minHeight="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startButton"
+        android:layout_below="@+id/headsetButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:enabled="false"
+        android:textSize="12dp"
+        android:minHeight="20dp"
+        android:maxHeight="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stopButton"
+        android:enabled="false"
+        android:textSize="12dp"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:layout_below="@+id/startButton"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/plot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/include"
+        android:layout_below="@+id/blinkTitle"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Up"
+        android:id="@+id/setAlgosButton"
+        android:textSize="12dp"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:layout_below="@+id/stopButton"
+        android:layout_alignParentRight="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/myText"
+        android:layout_alignTop="@+id/include"
+        android:layout_alignLeft="@+id/include"
+        android:layout_alignStart="@+id/include"
+        android:layout_alignRight="@+id/include"
+        android:layout_alignEnd="@+id/include"
+        android:layout_alignBottom="@+id/include"
+        android:focusable="false"
+        android:editable="false"
+        android:ellipsize="end"
+        android:scrollbars="vertical"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:text="Blink"
+        android:id="@+id/blinkTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/setAlgosButton"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blinkImage"
+        android:minHeight="20dp"
+        android:minWidth="10dp"
+        android:src="@mipmap/led_off"
+        android:scaleType="fitXY"
+        android:maxHeight="20dp"
+        android:maxWidth="10dp"
+        android:layout_toRightOf="@+id/blinkTitle"
+        android:layout_alignBottom="@+id/blinkTitle"
+        android:layout_alignTop="@+id/setAlgosButton"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lightImage"
+        android:minHeight="20dp"
+        android:minWidth="10dp"
+        android:src="@mipmap/light_off"
+        android:scaleType="fitXY"
+        android:maxHeight="20dp"
+        android:maxWidth="10dp"
+        android:layout_below="@+id/blinkTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVImage"
+        android:minHeight="20dp"
+        android:minWidth="10dp"
+        android:src="@mipmap/tele_off"
+        android:scaleType="fitXY"
+        android:maxHeight="20dp"
+        android:maxWidth="10dp"
+        android:layout_below="@+id/blinkTitle"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ACImage"
+        android:minHeight="20dp"
+        android:minWidth="10dp"
+        android:src="@mipmap/airc_off"
+        android:scaleType="fitXY"
+        android:maxHeight="20dp"
+        android:maxWidth="10dp"
+        android:layout_below="@+id/lightImage"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" />
+
+
+
+</RelativeLayout>

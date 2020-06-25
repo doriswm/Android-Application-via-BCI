@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\tele_on.jpg",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\tele_on.jpg"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\tele_off.jpg",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\tele_off.jpg"
+    }
+]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:D.\XUEXI\mind control\MDT\Android Developer Tools 4.2\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\libs\libStreamSDK.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/libStreamSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

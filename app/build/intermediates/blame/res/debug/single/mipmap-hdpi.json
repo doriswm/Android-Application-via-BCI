@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\led_on.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\led_on.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\led_off.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\led_off.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\light_off.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\light_off.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\light_on.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\light_on.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\airc_on.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\airc_on.png"
+    },
+    {
+        "merged": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\airc_off.png",
+        "source": "D:\\XUEXI\\mind control\\MDT\\Android Developer Tools 4.2\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\src\\main\\res\\mipmap-hdpi\\airc_off.png"
+    }
+]

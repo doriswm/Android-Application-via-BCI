@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\XUEXI\mind control\MDT\Android Developer Tools 4.2\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\XUEXI\mind control\MDT\Android Developer Tools 4.2\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\debug\shaders"/></dataSet></merger>
